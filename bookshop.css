@@ -88,7 +88,10 @@ h2{
     overflow: hidden;
 }
 .hero img{
-    width: 40rem;
+    width: 30%;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
 }
 .hero .text{
     width: 35rem;
@@ -129,11 +132,13 @@ main{
     position: relative;
 }
 .purplebox{
-    width: 35rem;
-    height: 35rem;
+    /* width: 35rem;
+    height: 35rem; */
+    width: 35%;
+    height: 90%;
     border-radius: 50px;
     position: absolute;
-    right: 10rem;
+    right: 10%;
     bottom: -6rem;
     background-color: rgb(110, 119, 255);
     z-index: -1;
@@ -517,6 +522,7 @@ button{
         width: 100%;
         height: auto;
         position: relative;
+        border-radius: 0;
     }
     .head{
         display: flex;
@@ -580,7 +586,7 @@ button{
     .purplebox{
         width: 20rem;
         height: 20rem;
-        right: 45px;
+        right: 50px;
         bottom: -4rem;
     }
     .section1{
@@ -619,6 +625,14 @@ button{
     .sales button{
         font-size: 8px;
         background-color: black;
+    }
+    .sales:hover{
+        transform: none;
+        transition: none;
+    }
+    button:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
     }
     .more{
         font-size: small;
@@ -763,5 +777,8 @@ button{
     }
     .text{
         text-align: center;
+    }
+    .hero img{
+        position: static;
     }
 }
