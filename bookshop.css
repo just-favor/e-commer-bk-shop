@@ -39,13 +39,13 @@ header button{
     font-weight: bold;
     border: none;
     border-radius: 30px;
-    color: rgb(76, 0, 218);
-    background-color: rgba(76, 0, 218, 0.147);
+    color: blue;
+    background-color: rgba(21, 0, 255, 0.147);
     cursor: pointer;
-    border: 2px solid rgb(76, 0, 218);
+    border: 2px solid blue;
 }
 .topnav{
-    background: rgb(76, 0, 218);
+    background: blue;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,7 +77,7 @@ h2{
     font-size: 4rem;
 }
 .blue{
-    color: rgb(76, 0, 218);
+    color: blue;
 }
 .hero{
     padding: 8rem;
@@ -127,7 +127,7 @@ h2{
     position: absolute;
     padding: 0.7rem 2rem;
     right: 3px;
-    background-color: rgb(76, 0, 218);
+    background-color: blue;
     cursor: pointer;
 }
 main{
@@ -140,7 +140,7 @@ main{
     position: absolute;
     right: 10%;
     bottom: -6rem;
-    background-color: rgb(76, 0, 218);
+    background-color: blue;
     z-index: -1;
     transform: rotate(20deg);
     animation: rotate 30s linear infinite;
