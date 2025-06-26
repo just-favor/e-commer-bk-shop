@@ -6,22 +6,24 @@
     font-family: sans-serif;
 }
 body{
-    background-color: white;
+    background-color: #fffffff1;
     width: 100%;
-    /* overflow-x: hidden; */
+    transition: 1s ease-in-out;
+    padding: 0 1rem;
 }
 header{
     width: 100;
-    background-color: rgba(0, 0, 0, 0.067);
+    background-color: #00000028;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
     justify-content: center;
-    border-radius: 0 0 0 100px;
     position: relative;
+    box-shadow: 0 0 10px black;
+    border-radius: 0 0 150px 150px;
+    padding: 0 5rem;
 }
 .head{
-    width: 90%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,30 +39,30 @@ header button{
     font-weight: bold;
     border: none;
     border-radius: 30px;
-    color: white;
-    background-color: rgb(110, 119, 255);
+    color: rgb(76, 0, 218);
+    background-color: rgba(76, 0, 218, 0.147);
     cursor: pointer;
+    border: 2px solid rgb(76, 0, 218);
 }
 .topnav{
-    background: rgb(255, 255, 255);
+    background: rgb(76, 0, 218);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
-    border-radius: 0 0 50px 0;
-    width: 80%;
-    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.325);
+    padding: 1.3rem 4rem;
+    border-radius: 0 0 50px 50px;
+    width: 70%;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.725);
 }
 .topnav a{
     /* color: rgba(0, 0, 0, 0.642); */
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: large;
     font-weight: bold;
 }
 .topnav a:hover{
-    color:  rgb(110, 119, 255);
     transform: scale(1.2);
-    border-bottom: 2px solid rgb(110, 119, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
     transition: 0.3s ease-in-out;
 }
 .topnav a:nth-child(1):hover{
@@ -69,13 +71,13 @@ header button{
     transform: none;
 }
 h1{
-    color: black;
+    /* color: rgb(255, 255, 255); */
 }
 h2{
     font-size: 4rem;
 }
 .blue{
-    color: rgba(0, 0, 255, 0.74);
+    color: rgb(76, 0, 218);
 }
 .hero{
     padding: 8rem;
@@ -125,22 +127,20 @@ h2{
     position: absolute;
     padding: 0.7rem 2rem;
     right: 3px;
-    background-color: rgb(110, 119, 255);
+    background-color: rgb(76, 0, 218);
     cursor: pointer;
 }
 main{
     position: relative;
 }
 .purplebox{
-    /* width: 35rem;
-    height: 35rem; */
-    width: 35%;
-    height: 90%;
+    width: 450px;
+    height: 450px;
     border-radius: 50px;
     position: absolute;
     right: 10%;
     bottom: -6rem;
-    background-color: rgb(110, 119, 255);
+    background-color: rgb(76, 0, 218);
     z-index: -1;
     transform: rotate(20deg);
     animation: rotate 30s linear infinite;
@@ -154,7 +154,7 @@ main{
       }
 }
 section{
-    margin: 1rem 0;
+    margin: 10rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,7 +181,9 @@ section{
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(20, 1fr);
     gap: 3rem;
-    width: 100vh;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
 }
 .grid{
     background-color: white;
@@ -242,7 +244,7 @@ section{
 }
 .book-wrapper{
     margin: 4rem 0;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
