@@ -519,12 +519,14 @@ button{
     body{
         width: 100%;
         margin: auto;
+        padding: 0;
     }
     header{
         width: 100%;
         height: auto;
         position: relative;
         border-radius: 0;
+        padding: 0;
     }
     .head{
         display: flex;
